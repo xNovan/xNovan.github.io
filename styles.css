@@ -512,9 +512,7 @@ footer h4 {
     margin-top: 10px;
 }
 
-#row2 #nav-col-1 .nav-link:focus {
-    text-decoration: underline;
-}
+
 #row2 {
     display: flex;
     flex-direction: row;
@@ -549,6 +547,30 @@ footer h4 {
 
 
 }
+
+
+a > .btn {
+font-family: 'LilGroteskRegular';
+   font-weight: normal;
+   font-style: normal;
+    width: 160px;
+    background: #000;
+    height:35px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0%;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: -75px;
+    font-size: 1.1em;
+    transition: background-color .6s ease-out;
+    transition: color .4s ease-in;
+}
+a > .btn:hover {
+    background-color: #fff;
+    color: #e22d82;
+}
+
 .flip {
   transform: scale(-1, 1);
   color: #41a1ca;
@@ -563,7 +585,7 @@ footer h4 {
 }
 
 
-.nav-link {
+ .nav-link {
     font-size: 1.25em;
     color: #3d3e35;
    font-family: 'LilGroteskRegular';
@@ -574,20 +596,10 @@ footer h4 {
 
     
 }
-.nav-link:hover {
-    color: #e22d82;
-}
 
-.nav-icon {
-    color: #3d3e35;
-    padding: 15px;
-    font-size: 1.1em;
-    font-family: 'LilGroteskRegular';
-   font-weight: normal;
-   font-style: normal;
-}
 
-#nav-env {
+
+.gg-mail {
     color: #e22d82;
 }
 
@@ -599,10 +611,12 @@ footer h4 {
     
 }
 #nav-col-2 {
+    margin-right: 50px;
      align-items: center;
     flex-grow: 1;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     
     
 }
@@ -621,9 +635,11 @@ footer h4 {
   width:100%;
   height:100%;
     margin-bottom: 50px;
+    
 }
 
 #wrapper-inner {
+    
   display: table-cell;
   vertical-align:middle;
   width:100%;
@@ -636,13 +652,11 @@ footer h4 {
    overflow: hidden
 }
 
-.front-pic {
-   
-}
 #scroll-down {
+    
     display: block;
     position: relative;
-    padding-top: 79px;
+    padding-top: 90px;
   text-align:center;
 }
 .arrow-down {
@@ -670,11 +684,14 @@ footer h4 {
 #scroll-title {
     display: block;
     text-transform: uppercase;
-    color: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial;
-  font-size:14px;
-  font-weight:bold;
+    color: #000;
+    font-size: .8em;
+  font-family: 'LilGroteskRegular';
+   font-weight: normal;
+   font-style: normal;
+  
   letter-spacing:.1em;
+    margin-bottom: 25px;
 }
 #scroll-down::before {
     -webkit-animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
@@ -690,7 +707,7 @@ footer h4 {
     /* IE 10+, Fx 29+ */
     
     position: absolute;
-    top: -4px;
+    top: 9px;
     left: 50%;
     margin-left: -2px;
    
@@ -934,14 +951,17 @@ footer h4 {
 #social {
     font-size: 1.2em;
     position: absolute;
-    margin-left: -800px;
+    margin-left: -805px;
     color: #6d5f65;
+    margin-top: 3px;
         font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 }
 #row3 > p {
-        	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        	font-family: 'LilGroteskRegular';
+   font-weight: normal;
+   font-style: normal;
 
     align-self: auto;
     margin-top: 12%;
@@ -949,37 +969,25 @@ footer h4 {
     color: #000;
     font-size: 1.3em;
 }
-#btn {
-    position: absolute;
-    border: 1px solid #fff;
-    width: 150px;
-    height: 37px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    margin-top: 250px;
-}
-#btn > p {
-    margin-top: 10px;
-    font-size: 1.1em;
-    font-family: 'ArcoPerpetuoRegular';
-   font-weight: normal;
-   font-style: normal;
-    
-}
+
 
 #row3 > h1, p, h3, button {
     position: absolute;
 }
 .welcome-msg {
+    margin-bottom: 275px;
     color: #fff;
-     font-family: 'DatalegreyaThin';
+     position: absolute;
+  mix-blend-mode: difference;
+  font: 900 3vmin/3vh cookie, cursive;
+    font-family: 'LilGroteskRegular';
    font-weight: bold;
-   font-style: normal; 
-    font-size: 1.4em;
-    font-weight: bold;
-    margin-bottom: 250px;
+   font-style: normal;
+  text-align: center;
+    font-size: 1.5em;
 }
+
+
+
 
 
