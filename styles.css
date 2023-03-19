@@ -584,7 +584,8 @@ a > .btn:hover {
     margin-left: 35px;
 }
 
-
+#home {
+}
  .nav-link {
     font-size: 1.25em;
     color: #3d3e35;
@@ -987,7 +988,14 @@ a > .btn:hover {
     font-size: 1.5em;
 }
 
-
+#row4 {
+    display: flex;
+    justify-content: center;
+}
+#row4 > h2 {
+    margin-top: -25px;
+    position: absolute;
+}
 
 
 
